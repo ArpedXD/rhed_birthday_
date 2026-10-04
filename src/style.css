@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme{
+  --animate-hehe: cool 2s ease-in-out 0.5s infinite alternate forwards;
+  --animate-big: bruh 2s ease-in-out forwards;
+  --animate-big2: bruhs 2s ease-in-out forwards;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #fff7ed;
+  --color-ink: #1f1235;
+
+  @keyframes cool {
+    0%{
+      height:50%;
+      width:50%;
+    }50%{
+      height:75%;
+      width:75%;
+    }100%{
+      height:50%;
+      width:50%;
+    }
+  }
+
+  @keyframes bruh{
+    0%{
+      height:0%;
+    }100%{
+      height:100%;
+    }
+  }
+
+  @keyframes bruhs{
+    0%{
+      height:75%;
+      width:75%;
+    }100%{
+      top:10%;
+      left:10%;
+      height:20%;
+      width: 20%;
+    }
+  }
+}
